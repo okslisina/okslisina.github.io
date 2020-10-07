@@ -24,9 +24,15 @@
     margin-bottom: 107px;
 }
 
-.header{
+.header {
     margin-bottom: 32px;
+    
 } 
+
+.header img{
+    /* width: 577px;
+    height: 138px; */
+}
 
 .blog{
     color: #ffffff;
@@ -121,9 +127,18 @@
 }
 
 .article{
-    margin-left: 25%;
-    width: 359px;
-    
+    /* margin-left: 25%; */
+    width: 359px; 
+    margin-right: 20%;
+}
+
+.titleSec3{
+    padding-top: 35%; 
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0.18px;
 }
 
 .iconLayers{
@@ -136,6 +151,10 @@
 
 .content2 img {
     width: 100%;
+}
+
+.noBtn{
+    padding-bottom: 102px;
 }
 
 .title1{
