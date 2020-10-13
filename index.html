@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="icon" href="img/favicon.ico">
-    
+    <link rel="stylesheet" href="css/uikit.min.css" />
+
 </head>
 
 <body>
@@ -19,7 +20,7 @@
         <div class="container">
             <div class="row logo justify-content-center justify-content-md-start">
                 <div class="col-6 col-md-2 text-center">
-                    <img src="img/D&H_Travel.png" class="img-fluid" alt="D&H Travel">
+                    <a href="index.html"> <img src="img/D&H_Travel.png" class="img-fluid" alt="D&H Travel"></a>
                 </div>
             </div>
             <div class="row header justify-content-center">
@@ -28,7 +29,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-9 col-md-5 text-center blog">Blog about traveling</div>
+                <div class="col-9 col-md-5 text-center blog mb-5">Blog about traveling</div>
             </div>
             <div class="icon1 align-items-end scrollto">
                 <a href="#flag"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="11" viewBox="0 0 17 11">
@@ -46,7 +47,7 @@
 
     <!-- Секция 2(белая) -раскрывающийся текст -->
     <div class="container-fluid bg">
-        <div class="container sectionWhite1">
+        <div class="container sectionWhite1" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500 repeat: true" >
             <div class="row title" id="flag">
                 <div class="col-12 text-center"><strong>— We going to another horizonts —</strong></div>
             </div>
@@ -112,7 +113,7 @@
     <!-- Секция 3(две картинки) -->
     <div class="container-fluid p-0 ">
         <div class="row no-gutters sec ">
-            <div class="col-12 col-md-6 content1 text-center ">
+            <div class="col-12 col-md-6 content1 text-center " >
                 <div class="article ml-0 ml-md-auto mx-auto">
                     <div class="titleSec3"><strong>— David & Hope —</strong></div>
                     <div class="textOpacity">UI Designer and Photographer</div>
@@ -188,7 +189,7 @@
 
     <!-- Секция 4 (белая)     -->
     <div class="container-fluid bg">
-        <div class="container sectionWhite1">
+        <div class="container sectionWhite1 " uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500 repeat: true">
             <div class="row title">
                 <div class="col-12 text-center"><strong>— Follow us —</strong></div>
             </div>
@@ -230,7 +231,7 @@
     <div class="wrapper">
         <div class="wrapper1">
             <div class="box1 align-items-center ">
-                <!-- <div class="rectangle1"><svg xmlns="http://www.w3.org/2000/svg" width="542" height="446" viewBox="0 0 542 446"><defs><clipPath id="py63a"><path fill="#fff" d="M.434-.037h540.729V445.26H.434z"/></clipPath></defs><g><g opacity=".2"><path fill="none" stroke="#fff" stroke-miterlimit="20" stroke-width="4.06" d="M.434-.037v0h540.729V445.26H.434v0z" clip-path="url(&quot;#py63a&quot;)"/></g></g></svg></div> -->
+                
                 <div class="cotainer box11 mx-auto ">
                     <div class="row titleMini text-white">
                         <div class="col-12 text-center"><strong>— Inside the mystic forest —</strong></div>
@@ -258,18 +259,18 @@
             <div class="box3"><img src="img/fire.jpg" class="img-fluid" alt="bonfire"></div>
             <div class="box">
                 <div class="box4"><img src="img/lake.jpg" class="img-fluid" alt="lake"></div>
-                <div class="container box5">
+                <div class="container p-0 box5 ">
                     <div class="row titleMini1">
                         <div class="col-12 text-center"><strong>— Night with fires —</strong></div>
                     </div>
 
                     <div class="row justify-content-center">
-                        <div class="col-10 col-lg-9 text-center texty ">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        <div class="col-10 col-lg-9 text-center textyMini ">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna </div>
                     </div>
                     <div class="row rec button3 justify-content-center align-item-center text-center no-gutters">
                         <div class="col align-self-center">
-                            <button class="btn1" type="button">
+                            <button class="btn4" type="button">
                                 <strong>See all</strong>
                             </button>
 
@@ -286,7 +287,7 @@
 
     <!-- Секция 6(белая) -->
     <div class="container-fluid bg">
-        <div class="container sectionWhite1">
+        <div class="container sectionWhite1" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500 repeat: true">
             <div class="row title">
                 <div class="col-12 text-center"><strong>— Do you want more high quality photo? —</strong></div>
             </div>
@@ -367,7 +368,7 @@
     </div>
 
     <!-- Секция 7(на темном фоне) -->
-    <div class="container-fluid section4 ">
+    <div class="container-fluid section4" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500 repeat: true">
         <div class="row title3">
             <div class="col-12 text-center text-white"><strong>— We need you questions, so write to us! —</strong></div>
         </div>
@@ -475,6 +476,7 @@
     </script>
 
     <script src="js/script.js"></script>
+    <script src="js/uikit.min.js"></script>
 </body>
 
 </html>
