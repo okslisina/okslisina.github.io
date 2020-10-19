@@ -368,6 +368,18 @@
     height: 72px;
 }
 
+.footer a, .footer a:hover{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.icons a:hover{
+    background-color:#2f274b;
+    opacity:0.65 ;
+}
+
+
 .footerLast{
     background-color: #2b2344;
     height: 30px;

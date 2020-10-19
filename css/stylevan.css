@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url("../img/back1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-family: 'Arsenal', sans-serif;
+}
+
+
+
+.logo{
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+    letter-spacing: 1.8px;
+    color: white;
+}
+
+.menu,.menu1{
+    text-transform: uppercase  ;
+    
+}
+
+.menu a, .logo a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    
+}
+
+.logo a:hover {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    
+}
+
+.menu a:hover{
+    background-color: rgba(255, 255, 255, 0.705);
+    color:#6c96a4;
+}
+
+.slider{
+    font-family: 'Raleway', sans-serif;
+    
+}
+.article {
+    margin: 8% 0 8% 0;
+    background-color: rgba(255, 255, 255, 0.747);
+    padding: 4%;
+
+    -webkit-box-shadow: 0px 0px 11px 7px rgba(34, 60, 80, 0.39);
+-moz-box-shadow: 0px 0px 11px 7px rgba(34, 60, 80, 0.39);
+box-shadow: 0px 0px 11px 7px rgba(34, 60, 80, 0.39);
+}
+
+
+.form{
+    text-align:left;
+    background-image: url(../img/bg_form.jpg);
+    
+}
+
+.btn-form{
+    width:100%;
+    background: rgba(255, 255, 255, 0.747);
+    
+} 
+.btn1 {
+    background: rgb(38, 46, 99);
+    background: linear-gradient(90deg, rgba(38, 46, 99, 1) 12%, rgba(68, 134, 130, 1) 60%, rgba(165, 233, 206, 1) 98%);
+    border-radius: 30px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+    padding: 0.8rem 2rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 15px;
+}
+
+.btn1:hover {
+    background:white;
+    border: 1px solid rgba(68, 134, 130, 1);
+    color: rgba(68, 134, 130, 1);
+
+}
+.footer {
+
+    font-size: 15px;
+    text-align: center;
+    
+    
+}
+
+.footer a{
+    color:white;
+}
+.footer a:hover{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+
+@media  (max-width: 992px ) {
+    .menu {
+        font-size: 10px;
+    } 
+
+    .logo{
+        font-size: 20px;
+    } 
+}
+
+
